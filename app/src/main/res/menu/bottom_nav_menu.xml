@@ -11,9 +11,5 @@
         android:icon="?android:attr/actionModeFindDrawable"
         android:title="Products" />
 
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@android:drawable/ic_dialog_map"
-        android:title="Location" />
 
 </menu>
