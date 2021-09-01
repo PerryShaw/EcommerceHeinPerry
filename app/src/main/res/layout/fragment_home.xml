@@ -15,6 +15,7 @@
         android:layout_marginTop="61dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="59dp"
+        android:onClick="clickHandler"
         android:src="@drawable/hot_image_2png"
         app:layout_constraintBottom_toTopOf="@+id/text_home"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"
