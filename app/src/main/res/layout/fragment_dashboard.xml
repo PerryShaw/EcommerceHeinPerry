@@ -19,7 +19,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily = "@font/robotoregular"/>
 
     <TextView
         android:id="@+id/textView"
@@ -27,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="Buy It Now!"
+        android:fontFamily="@font/robotoregular"
         android:textAlignment="center"
         android:textColor="#F40606"
         android:textSize="48sp"
