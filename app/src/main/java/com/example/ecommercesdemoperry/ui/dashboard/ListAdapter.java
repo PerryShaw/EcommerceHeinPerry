@@ -30,7 +30,7 @@ public class ListAdapter extends ArrayAdapter<Item> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
-        Item user = getItem(position);
+        Item item = getItem(position);
 
         if (convertView == null){
 
@@ -40,13 +40,13 @@ public class ListAdapter extends ArrayAdapter<Item> {
 
         ImageView imageView = convertView.findViewById(R.id.profile_pic);
         TextView userName = convertView.findViewById(R.id.itemName);
-        TextView lastMsg = convertView.findViewById(R.id.itemDesc);
-        TextView time = convertView.findViewById(R.id.itemPrice);
+        TextView itemDesc = convertView.findViewById(R.id.itemDesc);
+        TextView itemPrice = convertView.findViewById(R.id.itemPrice);
 
-        imageView.setImageResource(user.imageId);
-        userName.setText(user.name);
-        lastMsg.setText(user.description);
-        time.setText(user.price);
+        imageView.setImageResource(item.imageId);
+        userName.setText(item.name);
+        itemDesc.setText(item.description);
+        itemPrice.setText(item.price);
 
 
         return convertView;
